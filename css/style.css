@@ -37,7 +37,7 @@ body {
   background-color: #fff4e6;
 }
 .hero {
-  max-width: 130rem;
+  max-width: 120rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -160,4 +160,23 @@ header.header {
 .nav-link.btn-cta:active {
   background-color: #cf711f;
   /* color: white; */
+}
+
+/*************************/
+/* how it work section */
+/*************************/
+.how {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 5rem 2rem;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0rem 2rem;
+}
+.step-image-box img {
+  width: 30%;
 }
