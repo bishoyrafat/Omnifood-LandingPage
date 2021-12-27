@@ -376,7 +376,7 @@ ion-icon {
   background-color: #fff4e6;
   padding: 1rem;
 }
-.bold {
+bold {
   font-size: 5rem;
 }
 .testimonials {
@@ -391,10 +391,10 @@ ion-icon {
   margin-bottom: 1.2rem;
 }
 .testimonial-text {
-  font-size: 2.2rem;
+  font-size: 1.9rem;
   font-weight: 500;
   margin-bottom: 1.2rem;
-  line-height: 1.7;
+  line-height: 1.4s;
 }
 .testimonial-name {
   font-size: 2rem;
@@ -431,6 +431,8 @@ ion-icon {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 4.8rem;
+  justify-content: end;
+  align-items: center;
 }
 header.plan-header {
   text-align: center;
@@ -449,6 +451,7 @@ header.plan-header {
 }
 .plan-1 {
   border: 5px solid #fff4e6;
+  justify-self: end;
 }
 .plan-2 {
   background-color: #fff4e6;
@@ -479,4 +482,48 @@ header.plan-header {
 .sign-up {
   text-align: center;
   margin-top: 2rem;
+}
+
+/*************************/
+/* feature section */
+/*************************/
+.section-feature {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 5rem 2rem;
+}
+.features {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 4.8rem;
+}
+.feature {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.feature-icon {
+  width: 3.2rem;
+  height: 3.2rem;
+  padding: 1.4rem;
+  background-color: #fff4e6;
+  border-radius: 50%;
+}
+.feature-title {
+  font-size: 2rem;
+  font-weight: 800;
+}
+.feature-info {
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+
+.aside {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0rem 2rem 5rem 2rem;
+  text-align: center;
+  font-size: 2rem;
+}
+.plan-details {
 }
