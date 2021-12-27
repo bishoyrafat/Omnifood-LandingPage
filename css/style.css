@@ -283,7 +283,7 @@ header.header {
   box-shadow: 0 3.2rem 6.2rem rgba(0, 0, 0, 0.06);
 }
 .meal-content {
-  padding: 1.2rem 3.2rem 3.2rem 3.2rem;
+  padding: 1.2rem 3.2rem 0.2rem 3.2rem;
 }
 
 .meal-name {
@@ -365,4 +365,57 @@ ion-icon {
 .link:active {
   color: #cf711f;
   border-bottom: 1px solid transparent;
+}
+/*************************/
+/* testimonial section */
+/*************************/
+.testimonial-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  background-color: #fff4e6;
+  padding: 1rem;
+}
+.bold {
+  font-size: 5rem;
+}
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 7rem;
+}
+.testimonial-image {
+  width: 8.6rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+.testimonial-text {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+  line-height: 1.7;
+}
+.testimonial-name {
+  font-size: 1.6rem;
+  color: #333;
+  font-weight: 400;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.gallery img {
+  width: 100%;
+  transition: all 0.3s;
+}
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+.gallery-item {
+  overflow: hidden;
 }
