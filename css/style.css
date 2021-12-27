@@ -540,7 +540,7 @@ header.plan-header {
   display: grid;
   grid-template-columns: 2fr 1fr;
   background: linear-gradient(-45deg, #f17509, #e67e22);
-  border-radius: 2rem;
+  border-radius: 1rem;
   overflow: hidden;
 }
 .image-box {
