@@ -473,18 +473,22 @@ header.plan-header {
 }
 .price-plan {
   display: flex;
+  justify-content: center;
+  justify-items: center;
   flex-direction: column;
   gap: 1.4rem;
-  width: 60%;
+  width: 80%;
   border-radius: 1rem;
   padding: 2rem;
 }
 .plan-1 {
-  border: 5px solid #fff4e6;
+  /* border: 5px solid #fff4e6; */
+  box-shadow: 0 0 0px 5px #fff4e6 inset;
   justify-self: end;
 }
 .plan-2 {
   background-color: #fff4e6;
+  /* align-self: stretch; */
   position: relative;
   overflow: hidden;
 }
@@ -512,6 +516,7 @@ header.plan-header {
 .sign-up {
   text-align: center;
   margin-top: 2rem;
+  align-self: stretch;
 }
 
 /*************************/
@@ -593,7 +598,7 @@ header.plan-header {
 }
 form {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 3fr 2fr;
   margin-top: 3rem;
   gap: 3rem;
   padding: 2rem;

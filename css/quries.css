@@ -111,7 +111,7 @@
     grid-template-columns: repeat(2, 1fr);
   }
   .meal {
-    width: 80%;
+    width: 100%;
     margin: 0 auto 3rem auto;
   }
   .meal-content {
@@ -134,9 +134,74 @@
   .footer-logo {
     grid-row: 2;
   }
+  .cta {
+    grid-template-columns: 1fr 1fr;
+  }
+  .section-cta {
+    padding: 6rem 3rem;
+  }
+  .image-box {
+    background-position: center;
+  }
 }
 
 /*************************/
-/* 1200px and below */
-/* 767/16=48em */
+/* 500px and below */
+/* 500/16=31em */
 /*************************/
+
+@media (max-width: 31em) {
+  .featured-logos img {
+    height: 1.5rem;
+  }
+
+  .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .step-image-box:nth-child(2) {
+    grid-row: 1;
+  }
+  .step-image-box:nth-child(6) {
+    grid-row: 5;
+  }
+  .step-image-box {
+    transform: translateY(5rem);
+  }
+
+  .meals {
+    grid-template-columns: repeat(1, 1fr);
+    width: 70%;
+  }
+  .testimonials {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+    align-content: center;
+  }
+  .testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .price-plans {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 3rem;
+    justify-items: center;
+    width: 75%;
+  }
+  .plan-1 {
+    justify-self: center;
+  }
+  .plan-2::after {
+    top: 9%;
+    right: -12%;
+  }
+  .cta {
+    grid-template-columns: 1fr;
+  }
+  .image-box {
+    grid-row: 1;
+    height: 30rem;
+  }
+}
