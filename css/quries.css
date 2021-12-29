@@ -183,6 +183,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    padding: 0 2rem;
   }
   .price-plans {
     grid-template-columns: repeat(1, 1fr);
@@ -194,8 +196,14 @@
     justify-self: center;
   }
   .plan-2::after {
-    top: 9%;
-    right: -12%;
+    top: 7%;
+    right: -16%;
+  }
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .gallery-item:last-child img {
+    display: block;
   }
   .cta {
     grid-template-columns: 1fr;
