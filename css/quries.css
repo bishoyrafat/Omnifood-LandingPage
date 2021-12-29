@@ -50,19 +50,30 @@
     align-items: center;
     justify-content: center;
     line-height: 2.4;
+    transition: all 0.4s;
     opacity: 0;
-  }
-  .open-menu {
-    display: block;
-  }
-  .nav-state .close-menu {
-    display: none;
+    z-index: 1;
   }
   .nav-state {
     display: block;
   }
   .nav-open .nav-list {
-    opacity: 0;
+    opacity: 1;
+  }
+
+  .nav-open .close-menu {
+    display: block;
+  }
+  .close-menu {
+    display: none;
+  }
+  .nav-open .open-menu {
+    display: none;
+  }
+
+  .nav-link:link,
+  .nav-link:visited {
+    font-size: 4rem;
   }
 }
 

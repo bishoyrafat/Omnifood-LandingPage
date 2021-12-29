@@ -165,25 +165,13 @@ header.header {
 .nav-state {
   border: none;
   outline: none;
-  background-color: #fff4e6;
+  background-color: transparent;
+  z-index: 2;
   display: none;
 }
 .open-menu,
 .close-menu {
   font-size: 4rem;
-}
-.close-menu {
-  display: none;
-}
-.nav-state .open-menu {
-  display: block;
-}
-
-.nav-open .nav-list {
-  opacity: 1;
-}
-.nav-open .close-menu {
-  display: block;
 }
 
 /*************************/
