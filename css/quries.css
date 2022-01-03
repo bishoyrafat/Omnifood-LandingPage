@@ -93,7 +93,7 @@
     width: 70%;
   }
   .featured-logos img {
-    height: 2.2rem;
+    height: 3.2rem;
   }
   .meals-list {
     gap: 1.2rem;
@@ -163,7 +163,7 @@
 
 @media (max-width: 31em) {
   .featured-logos img {
-    height: 1.5rem;
+    height: 2.8rem;
   }
 
   .container {
