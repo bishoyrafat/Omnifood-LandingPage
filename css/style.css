@@ -272,7 +272,7 @@ header.sticky {
 .featured-logos {
   display: flex;
   flex-wrap: wrap;
-  gap: 5rem;
+  gap: 4rem;
   justify-content: space-evenly;
   margin-top: 2.8rem;
 }
@@ -413,6 +413,12 @@ bold {
   gap: 2rem;
   margin-top: 7rem;
 }
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .testimonial-image {
   width: 8.6rem;
   border-radius: 50%;
@@ -535,6 +541,8 @@ header.plan-header {
 .feature {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
   gap: 2rem;
 }
 .feature-icon {

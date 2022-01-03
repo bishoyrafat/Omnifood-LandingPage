@@ -31,3 +31,6 @@ const callback = (entries) => {
 
 let observer = new IntersectionObserver(callback, options);
 observer.observe(heroSection);
+
+// Animation
+new WOW().init();
