@@ -1,3 +1,3 @@
-# live demo
+# Live Demo
 
-- https://omnifood-recipes.netlify.app
+# https://omnifood-recipes.netlify.app
